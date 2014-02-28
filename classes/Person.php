@@ -8,6 +8,10 @@ class Person {
 		self::$name = $name;
 	}
 	
+	public static function get_name() {
+		echo self::$name;
+	}
+	
 }
 
 ?>
