@@ -12,6 +12,10 @@ class Person {
 		echo self::$name;
 	}
 	
+	public static function test() {
+		echo 'Works';
+	}
+
 	public static function display_title( $title ) {
 		echo '<h1>'. $title .'</h1>';
 	}
